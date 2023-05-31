@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+}
+h1 { 
+    background-color: #2D3E40;
+    color: #E4F2E7;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.descrição {
+    text-align: center;
+}
+.tabela {
+    width: 400px;
+    grid-column: 1/2;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.content {
+    grid-column: 2/3;
+    margin-top: 100px;
+}
+main { 
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 30% 40%;
+
+}
+#btnCalc {
+    margin-top: 50px;
+    border: 1px solid #97A6A0;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #93BFB7;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 259px;
+    padding: 3px;
+}

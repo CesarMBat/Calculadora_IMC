@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="agenda.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <h1>Calculadora IMC</h1>
+            <p class="descrição">
+                O índice de massa corporal é uma medida internacional usada para
+                calcular se uma pessoa está no peso ideal.
+            </p>
+        </header>
+        <main>
+            <img src="tabela-imc.png" alt="" class="tabela" />
+            <div class="content">
+                <div>
+                    <label for="peso">Digite seu peso: </label>
+                    <input type="number" id="peso" />
+                </div>
+                <div>
+                    <label for="altura">Digite sua altura em metros: </label>
+                    <input type="number" id="altura" />
+                </div>
+                <div>
+                    <button id="btnCalc">CALCULAR</button>
+                    <p id="resultado"></p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Todos os direitos reservados &copy;</p>
+        </footer>
+        <script src="agenda.js"></script>
+    </body>
+</html>
