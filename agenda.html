@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="agenda.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <h1>Calculadora IMC</h1>
+            
+        </header>
+        <main>
+            <section class="top-text">
+                <p class="desc">
+                    O índice de massa corporal é uma medida internacional usada para
+                    calcular se uma pessoa está no peso ideal.
+                </p>
+            </section>
+            <section class="major-content">
+                <img src="tabela-imc.png" alt="" class="tabela" />
+                <div class="content">
+                    <div class="input-div">
+                        <label for="peso">Digite seu peso: </label> <br>
+                        <input type="number" id="peso" class="input"/>
+                    </div>
+                    <div class="input-div">
+                        <label for="altura">Digite sua altura em metros: </label> <br>
+                        <input type="number" id="altura" class="input"/>
+                    </div>
+                    <div>
+                        <button id="btnCalc">CALCULAR</button>
+                        <span id="resultado"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Todos os direitos reservados &copy;</p>
+        </footer>
+        <script src="imc_calc.js"></script>
+    </body>
+</html>
